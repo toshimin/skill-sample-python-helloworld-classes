@@ -2,27 +2,27 @@
   "manifest": {
     "publishingInformation": {
       "locales": {
-        "en-US": {
-          "summary": "Sample Short Description",
+        "ja-JP": {
+          "summary": "短い説明のサンプル",
           "examplePhrases": [
-            "Alexa open hello class world",
-            "hello",
-            "help"
+            "アレクサ, ハローパイソンを開いて",
+            "ハローと言って",
+            "ヘルプ"
           ],
-          "name": "Hello Class World",
-          "description": "Sample Full Description"
+          "name": "HelloPython",
+          "description": "詳しい説明のサンプル"
         }
       },
       "isAvailableWorldwide": true,
-      "testingInstructions": "Sample Testing Instructions.",
+      "testingInstructions": "テスト手順のサンプル",
       "category": "KNOWLEDGE_AND_TRIVIA",
       "distributionCountries": []
     },
     "apis": {
       "custom": {
         "endpoint": {
-          "sourceDir": "lambda/py",
-          "uri": "ask-custom-helloworld-classes-default"
+          "sourceDir": "lambda/py/lambda_upload",
+          "uri": "ask-custom-HelloPython-default"
         }
       }
     },
